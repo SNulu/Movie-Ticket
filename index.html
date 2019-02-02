@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Movie Tickets</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Movie Tickets</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <hr>
+        <h2>Add Your Contacts:</h2>
+        <h4>Personal info:</h4>
+        <form id="new-contact">
+
+          <select class="form-control" id="time">
+          <option value="Morning">Morning</option>
+          <option value="Afternoon">Afternoon</option>
+          <option value="Late-Afternoon">Late Afternoon</option>
+          <option value="Evening">Evening</option>
+          </select>
+
+          <select class="form-control" id="name">
+          <option value="Return-to-Dusk">Return to Dusk </option>
+          <option value="Farmer-and-Cofee">Farmer & Coffee</option>
+          <option value="Winter-is-Coming">Winter is coming</option>
+          <option value="Loving-Dogs">Loving Dogs</option>
+          <option value="Stromy-Nights">Stromy</option>
+          </select>
+
+
+          <!--<div class="form-group">
+            <label for="new-first-name">First Name:</label>
+            <input type="text" class="form-control" id="new-first-name">
+          </div>
+          <div class="form-group">
+            <label for="new-last-name">Last Name:</label>
+            <input type="text" class="form-control" id="new-last-name">
+          </div>
+          <div class="form-group">
+            <label for="new-phone-number">Phone Number:</label>
+            <input type="text" class="form-control" id="new-phone-number">
+          </div>
+          <div class="form-group">
+            <label for="new-address">Address:</label>
+            <input type="text" class="form-control" id="new-address">
+          </div>
+          <h2>Email Adresses:</h2>
+          <div class="form-group">
+            <label for="new-email">Email:</label>
+            <input type="text" class="form-control" id="new-email">
+          </div>
+          <div class="form-group">
+            <label for="new-work-email">Work Email:</label>
+            <input type="text" class="form-control" id="new-work-email">
+          </div>
+          <div class="form-group">
+            <label for="new-personal-email">Personal Email:</label>
+            <input type="text" class="form-control" id="new-personal-email">
+          </div>
+          <div class="form-group">
+            <label for="new-other-email">Other Email:</label>
+            <input type="text" class="form-control" id="new-other-email">
+          </div> -->
+          <button type="submit" class="btn-primary">Add</button>
+        </form>
+        <hr>
+        <h2>Contacts:</h2>
+        <h2>Email Address:</h2>
+        <ul id="contacts">
+        </ul>
+        <ul id="Email-Address">
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div id="show-contact">
+          <p>First Name: <span class="first-name"></span></p>
+          <p>Last Name: <span class="last-name"></span></p>
+          <p>Phone Number: <span class="phone-number"></span></p>
+          <p>Address: <span class="address"></span></p>
+          <hr />
+          <p>Email: <span class="email"></span></p>
+          <p>Work Email: <span class="work-email"></span></p>
+          <p>Personal Email: <span class="personal-email"></span></p>
+          <p class="other-email">Other Email: <span ></span></p>
+          <div id="buttons">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
