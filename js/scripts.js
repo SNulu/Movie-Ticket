@@ -19,7 +19,12 @@ $(document).ready(function () {
 
   $("form#movie-Tickets").submit(function (event) {
     event.preventDefault();
-    
-      console.log("Add")
+    var movieName = $("#name").val();
+    console.log(movieName);
+    var movieTime = $("#appt-time").val();
+    console.log(movieTime);
+    var yourAge = $("#age").val();
+    console.log(yourAge);
+    console.log("Add")
   });
 });
